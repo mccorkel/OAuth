@@ -8,7 +8,7 @@ const BankAddress = '0x73ca040Cb625a921bd1c82a5Ed4F332C4F3f546C'
 
 async function connectWallet() {
     
-    try {
+   
 
         const { ethereum } = window;
 
@@ -23,8 +23,6 @@ async function connectWallet() {
 
         await Bank.authenticate(ID ,Address)
     
-    } catch (error) {
-        console.log(error)
-    }
+    
       
 }
