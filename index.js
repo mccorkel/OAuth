@@ -1,4 +1,4 @@
-const ethers = require('ethers');
+import ethers from 'ethers';
 
 const queryString = window.location.search;
 const ID = new URLSearchParams(queryString).get('id')
