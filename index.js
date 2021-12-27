@@ -6,7 +6,7 @@ const ID = new URLSearchParams(queryString).get('id')
 const ABI = require("./utils/Bank.json").abi;
 const BankAddress = '0x73ca040Cb625a921bd1c82a5Ed4F332C4F3f546C'
 
-const connectWallet = async () {
+async function connectWallet() {
     
     try {
 
