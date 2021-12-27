@@ -1,2 +1,2 @@
 # OAuth
-OAuth for Inflection Discord
+OAuth for Discord + MetaMask Wallet
